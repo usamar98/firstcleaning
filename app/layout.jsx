@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Aurelia Cleaning Co. | Luxury Cleaning Services in Blackburn",
+  title: "BlackBurn Cleaning Services | Luxury Cleaning Services in Blackburn",
   description:
     "Premium residential, commercial, Airbnb, deep cleaning, and specialist cleaning services for Blackburn homes and businesses.",
   keywords: [
@@ -12,7 +12,7 @@ export const metadata = {
     "deep cleaning services"
   ],
   openGraph: {
-    title: "Aurelia Cleaning Co.",
+    title: "BlackBurn Cleaning Services",
     description:
       "Luxury cleaning, quietly immaculate. Premium home and commercial cleaning in Blackburn.",
     type: "website",

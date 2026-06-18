@@ -30,7 +30,7 @@ const email = "blackburncleaningservices26@gmail.com";
 const address = "BB2 3PB, 37 Lynthorpe Road, Blackburn";
 const workingHours = "Monday - Saturday, 9:00 AM - 6:00 PM";
 const whatsappHref =
-  "https://wa.me/447481046053?text=Hello%20Aurelia%20Cleaning%20Co.%2C%20I%20would%20like%20to%20book%20a%20cleaning.";
+  "https://wa.me/447481046053?text=Hello%20BlackBurn%20Cleaning%20Services%2C%20I%20would%20like%20to%20book%20a%20cleaning.";
 
 const images = {
   hero: "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1500&q=86",
@@ -132,7 +132,7 @@ const reviews = [
   {
     role: "Homeowner",
     name: "Sofia W.",
-    quote: "Aurelia left our home calm, polished, and beautifully reset. The detailing felt genuinely premium."
+    quote: "BlackBurn left our home calm, polished, and beautifully reset. The detailing felt genuinely premium."
   },
   {
     role: "Airbnb host",
@@ -157,7 +157,7 @@ const reviews = [
   {
     role: "Restaurant owner",
     name: "Daniel H.",
-    quote: "Aurelia handled our front-of-house deep clean with discretion, speed, and excellent communication."
+    quote: "BlackBurn handled our front-of-house deep clean with discretion, speed, and excellent communication."
   }
 ];
 
@@ -185,7 +185,7 @@ const pricing = [
 
 const faqs = [
   ["What areas do you cover?", "We serve Blackburn and nearby areas. Share your postcode and we will confirm availability."],
-  ["Are your cleaners insured?", "Yes. Aurelia Cleaning Co. works with vetted, trained, and insured cleaning specialists."],
+  ["Are your cleaners insured?", "Yes. BlackBurn Cleaning Services works with vetted, trained, and insured cleaning specialists."],
   ["Do you bring cleaning products?", "Yes. We can bring premium cleaning products and equipment, or use preferred products supplied at the property."],
   ["Can I book recurring cleaning?", "Yes. Weekly, fortnightly, monthly, and custom schedules are available for homes, offices, and managed properties."],
   ["How quickly can I get a quote?", "Most quote requests receive a response within one working day, with faster replies for urgent turnovers."]
@@ -207,7 +207,7 @@ export default function HomePage() {
         <HorizontalScroller
           id="reviews"
           title="Reviews From Exacting Clients"
-          intro="Homeowners, hosts, managers, and operators choose Aurelia when presentation matters and the service has to feel effortless."
+          intro="Homeowners, hosts, managers, and operators choose BlackBurn when presentation matters and the service has to feel effortless."
           items={reviews}
           type="review"
         />
@@ -273,7 +273,7 @@ function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-night/88 via-night/12 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end">
               <div>
-                <p className="text-sm uppercase tracking-[0.22em] text-champagne">Aurelia Standard</p>
+                <p className="text-sm uppercase tracking-[0.22em] text-champagne">BlackBurn Standard</p>
                 <h2 className="display-title mt-2 text-3xl text-ivory">Hotel-level finishing for private spaces</h2>
               </div>
               <a href={bookingHref} className="rounded-[8px] border border-champagne/35 px-4 py-3 text-center text-sm font-semibold text-champagne">
@@ -357,7 +357,7 @@ function WhyChooseUs() {
         <div>
           <h2 className="display-title text-4xl text-ivory sm:text-5xl lg:text-6xl">Designed For Clients Who Notice Details</h2>
           <p className="mt-6 text-base leading-8 text-smoke">
-            Aurelia Cleaning Co. combines premium presentation with practical scheduling, clear communication, and a calm, discreet service style.
+            BlackBurn Cleaning Services combines premium presentation with practical scheduling, clear communication, and a calm, discreet service style.
           </p>
           <div className="mt-9 grid gap-4">
             {points.map(([title, text, Icon]) => (
@@ -439,7 +439,7 @@ function Appointment() {
         <div>
           <h2 className="display-title text-4xl text-ivory sm:text-5xl lg:text-6xl">Book a Cleaning Appointment</h2>
           <p className="mt-6 text-base leading-8 text-smoke">
-            Share the essentials and Aurelia will respond with a refined cleaning plan, timing options, and a tailored quote.
+            Share the essentials and BlackBurn will respond with a refined cleaning plan, timing options, and a tailored quote.
           </p>
           <div className="mt-8 grid gap-4 text-sm text-pearl">
             <InfoRow icon={Clock} title="Working hours" text={workingHours} />
@@ -460,7 +460,7 @@ function Contact() {
     <section id="contact" className="section-pad bg-charcoal">
       <div className="section-shell">
         <div className="mx-auto mb-10 max-w-3xl text-center">
-          <h2 className="display-title text-4xl text-ivory sm:text-5xl lg:text-6xl">Contact Aurelia</h2>
+          <h2 className="display-title text-4xl text-ivory sm:text-5xl lg:text-6xl">Contact BlackBurn</h2>
           <p className="mt-5 text-base leading-8 text-smoke">
             Call, email, WhatsApp, or send a note. We serve Blackburn homes, hosts, offices, restaurants, and managed properties.
           </p>
@@ -527,7 +527,7 @@ function Footer() {
               <Sparkles size={22} />
             </span>
             <div>
-              <p className="display-title text-2xl text-ivory">Aurelia Cleaning Co.</p>
+              <p className="display-title text-2xl text-ivory">BlackBurn Cleaning Services</p>
               <p className="text-xs uppercase tracking-[0.22em] text-smoke">Blackburn luxury cleaning</p>
             </div>
           </div>
@@ -548,7 +548,7 @@ function Footer() {
         </div>
       </div>
       <div className="section-shell mt-10 flex flex-col gap-3 border-t border-champagne/10 pt-6 text-xs text-smoke sm:flex-row sm:items-center sm:justify-between">
-        <p>© 2026 Aurelia Cleaning Co. All rights reserved.</p>
+        <p>© 2026 BlackBurn Cleaning Services. All rights reserved.</p>
         <div className="flex gap-5">
           <a href="#appointment" className="hover:text-champagne">Book Cleaning</a>
           <a href="#contact" className="hover:text-champagne">Contact</a>

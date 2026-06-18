@@ -136,7 +136,7 @@ export function ContactForm() {
           name="contactMessage"
           rows={4}
           className="luxury-input resize-none"
-          placeholder="How can Aurelia help?"
+          placeholder="How can BlackBurn help?"
           required
         />
       </label>

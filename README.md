@@ -1,6 +1,6 @@
-# Aurelia Cleaning Co.
+# BlackBurn Cleaning Services
 
-A dark luxury Next.js, React, Tailwind CSS, and Framer Motion cleaning website for a premium London service brand.
+A dark luxury Next.js, React, Tailwind CSS, and Framer Motion cleaning website for a premium Blackburn service brand.
 
 ## Run locally
 
